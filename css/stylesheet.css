@@ -1,5 +1,5 @@
 body {
-  font-size: 1.4vh;  
+  font-size: 2.0vh;  
   font-family: 'Montserrat', sans-serif;
   color: darkgray;
   overflow-x: hidden;
@@ -69,7 +69,7 @@ h {
 
 .artist {
   margin-top: 0.5vh;
-  font-size: 2.0vh;
+  font-size: 1.8vh;
 }
 .artist img {
   height: 1.5vh;
