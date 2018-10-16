@@ -108,3 +108,26 @@ h {
   margin: 0.5vh;
   padding: 0.5vh;
 }
+
+.spotify-artists {
+  margin: 2vh 0vh;
+}
+.spotify-artists div {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+.spotify-artists img {
+  height: 24vh;
+  margin: 0vw 3vw;
+}
+.spotify-artists text {
+  display: table;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+}
+.song-name {
+  font-size: 1.5vh;
+  margin-bottom: 3vh;
+}
