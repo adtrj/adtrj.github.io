@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-size: 2.0vh;  
   font-family: 'Montserrat', sans-serif;
@@ -32,11 +38,21 @@ body {
   transition: transform calc(var(--f, 1)*.5s) ease-out;
 }
 
+#conversation-button {
+  height: 0;
+}
+#conversation-button img {
+  position: absolute;
+  height: 8vh;
+  right: 3vw;
+  margin-top: -6vh;
+}
+
 .details {
   margin-left: 2vh;
 }
 
-.name-age {
+#name-age {
   color: black; 
   font-size: 3.3vh;
 }
@@ -45,10 +61,10 @@ body {
   font-weight: bold;
 }
 
-.location {
+#location {
   margin-top: 0.5vh;
 }
-.location img {
+#location img {
   height: 1.9vh;
 }
 
@@ -67,10 +83,28 @@ h {
   margin-bottom: 1vh;
 }
 
+.anthem-image img {
+  height: 10vh;
+  position: absolute;
+  right: 2vw;
+  margin-top: -9vh;
+}
+
 .artist {
   margin-top: 0.5vh;
   font-size: 1.8vh;
 }
 .artist img {
   height: 1.5vh;
+}
+
+#interests {
+  margin-top: 2vh;
+}
+#interests text {
+  border: 1px solid #FF655B;
+  border-radius: 2px;
+  color: #FF655B;
+  margin: 0.5vh;
+  padding: 0.5vh;
 }
