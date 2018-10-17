@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversation</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+	
+  </head>
+  <body>
+    <div id='conversation-header' class='conversation-header'>
+      <img id='back-arrow' src='img/back_arrow.png'/>
+      <img src='img/pls_stop_adt_square.jpg'/>
+      <h> Curdi 🅱️ </h>
+    </div>
+    <script type="text/javascript">
+      var button = document.getElementById("conversation-header");
+      button.addEventListener('mousedown', redirect, false);
+      button.addEventListener('touchstart', redirect, false);
+      function redirect(e) {
+        location.href = "index.html";
+      };
+    </script>
+    
+    <hr>
+    
+    <div class='date-time'>
+      <text class='date'> Sun, Jan 4, 2015 </text>
+      <text class='time'> , 09:44 </text>
+    </div>
+    
+    <div class='to-message'>
+      <text> Hi </text>
+    </div>
+    
+    <div class='date-time'>
+      <text class='date'> Sun, Jan 4, 2015 </text>
+      <text class='time'> , 10:42 </text>
+    </div>
+    
+    <div class='from-message'>
+      <text> Hey :) </text>
+    </div>
+    
+    <div class='date-time'>
+      <text class='date'> Tue, Jun 6, 2018 </text>
+      <text class='time'> , 00:00 </text>
+    </div>
+    
+    <div class='to-message'>
+      <text> Happy Birthday </text>
+    </div>
+    
+  </body>
+</html>

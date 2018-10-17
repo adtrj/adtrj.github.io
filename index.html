@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>title</title>
+    <title>Happy Birthday</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
 	
@@ -17,8 +17,16 @@
     <script id="javascript" src="js/slide.js"></script>
     
     <div id='conversation-button'>
-      <img src='img/tinder_arrow.png'/>
+      <img src='img/tinder_arrow.png' id='conversation-link'/>
     </div>
+    <script type="text/javascript">
+      var button = document.getElementById("conversation-link");
+      button.addEventListener('mousedown', redirect, false);
+      button.addEventListener('touchstart', redirect, false);
+      function redirect(e) {
+        location.href = "conversation.html";
+      };
+    </script>
     
     <div class='details'>
       <div id='name-age'>
@@ -83,7 +91,7 @@
     
     <div class='details'>
       <div>
-        <h> 2 Interests </h>
+        <h> 2 Interests (lying to impress) </h>
       </div>
       <div id='interests'>
         <text> RJ </text>

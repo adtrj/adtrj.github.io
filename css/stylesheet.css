@@ -118,7 +118,7 @@ h {
   width: 50%;
 }
 .spotify-artists img {
-  height: 24vh;
+  height: 40vw;
   margin: 0vw 3vw;
 }
 .spotify-artists text {
@@ -130,4 +130,63 @@ h {
 .song-name {
   font-size: 1.5vh;
   margin-bottom: 3vh;
+}
+
+.date-time {
+  align-content: center;
+  width: 100%;
+  text-align: center;
+}
+.date {
+  font-weight: bold;
+}
+.time {
+  margin-left: -1vw;
+}
+
+.to-message {
+  text-align: right;
+  margin: 3vh 0vw;
+}
+.to-message text {
+  background-color: #03A9F4;
+  border-radius: 4vh 4vh 1vh 4vh;
+  color: white;
+  padding: 1.5vh;
+  margin: 3vw;
+  font-size: 2.4vh;
+}
+
+.from-message {
+  text-align: left;
+  margin: 3vh 0vw;
+}
+.from-message text {
+  background-color: lightgray;
+  border-radius: 4vh 4vh 4vh 1vh;
+  color: black;
+  padding: 1.5vh;
+  margin: 3vw;
+  font-size: 2.4vh;
+}
+
+#back-arrow {
+  height: 5vh;
+  margin-left: 4vw;
+  margin-right: 6vw;
+  padding-bottom: 1.5vh;
+}
+.conversation-header {
+  line-height: 7vh;  
+  margin-top: 2vh;
+  margin-bottom: -3vh;
+}
+.conversation-header img {
+  height: 6vh;
+  border-radius: 3vh;
+  margin-right: 2vw;
+}
+.conversation-header h {
+  font-size: 3vh;
+  vertical-align: text-bottom;
 }
