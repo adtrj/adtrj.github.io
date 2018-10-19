@@ -6,7 +6,8 @@
 
 body {
   font-size: 2.2vh;  
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   color: darkgray;
   overflow-x: hidden;
 }
@@ -58,7 +59,7 @@ body {
 }
 
 .name {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 #location {
@@ -75,7 +76,7 @@ hr {
 }
 
 h {
-  font-weight: bold;
+  font-weight: 600;
   color: black;
 }
 
@@ -138,7 +139,7 @@ h {
   text-align: center;
 }
 .date {
-  font-weight: bold;
+  font-weight: 600;
 }
 .time {
   margin-left: -1vw;
