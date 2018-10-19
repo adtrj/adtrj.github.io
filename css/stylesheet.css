@@ -5,9 +5,8 @@
 }
 
 body {
-  font-size: 2.2vh;  
+  font-size: 2.0vh;  
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
   color: darkgray;
   overflow-x: hidden;
 }
@@ -55,11 +54,11 @@ body {
 
 #name-age {
   color: black; 
-  font-size: 3.7vh;
+  font-size: 3.3vh;
 }
 
 .name {
-  font-weight: 600;
+  font-weight: bold;
 }
 
 #location {
@@ -76,7 +75,7 @@ hr {
 }
 
 h {
-  font-weight: 600;
+  font-weight: bold;
   color: black;
 }
 
@@ -93,7 +92,7 @@ h {
 
 .artist {
   margin-top: 0.5vh;
-  font-size: 2.0vh;
+  font-size: 1.8vh;
 }
 .artist img {
   height: 1.5vh;
@@ -129,7 +128,7 @@ h {
   width: 100%;
 }
 .song-name {
-  font-size: 1.7vh;
+  font-size: 1.5vh;
   margin-bottom: 3vh;
 }
 
@@ -139,7 +138,7 @@ h {
   text-align: center;
 }
 .date {
-  font-weight: 600;
+  font-weight: bold;
 }
 .time {
   margin-left: -1vw;
@@ -155,7 +154,7 @@ h {
   color: white;
   padding: 1.5vh;
   margin: 3vw;
-  font-size: 2.7vh;
+  font-size: 2.4vh;
 }
 
 .from-message {
@@ -168,7 +167,7 @@ h {
   color: black;
   padding: 1.5vh;
   margin: 3vw;
-  font-size: 2.7vh;
+  font-size: 2.4vh;
 }
 
 #back-arrow {
@@ -188,7 +187,7 @@ h {
   margin-right: 2vw;
 }
 .conversation-header h {
-  font-size: 3.3vh;
+  font-size: 3vh;
   vertical-align: text-bottom;
 }
 
